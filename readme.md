@@ -1,8 +1,5 @@
-<a name="readme-top"></a>
-
 #Mailgun Example Scripts
 
-<!-- TABLE OF CONTENTS -->
 ###Table of Contents
 *<a href="#about_this_repo">About this repo</a>
 *<a href="#get_domains">get_domains.py</a>: Retreive all domains on an account and save it as a csv file.
@@ -14,18 +11,15 @@
 This repo contains example scripts that show how to interact with the Mailgun API. These scripts are not supported and probably not production ready. They are offered as a starting point; a learning aid. We hope you find these scripts useful and welcome any suggestions for additional scripts at https://feedback.mailgun.com
 
 These scripts have been designed to be as user friendly as possible and will prompt you for any needed information, such as your API key or file names, when ran.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 
 ##get_domains.py
 <a name="get_domains"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 
 ##get_suppressions.py
 <a name="#get_suppressions"></a>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
