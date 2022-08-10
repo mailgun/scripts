@@ -31,5 +31,5 @@ Output is stored in ./files/suppressions
 ### How to use:
 
 ```
-python export_suppressions.py <API_KEY_HERE> <FILE_NAME>
+python export_suppressions.py
 ```
