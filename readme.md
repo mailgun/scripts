@@ -1,9 +1,11 @@
 # Mailgun Example Scripts
 
 ## About This Repo
+
 This repo contains example scripts that show how to interact with the Mailgun API. These scripts are not supported and probably not production ready. They are offered as a starting point; a learning aid. We hope you find these scripts useful and welcome any suggestions for additional scripts at https://feedback.mailgun.com
 
 These scripts have been designed to be as user friendly as possible and will prompt you for any needed information, such as your API key or file names, when ran.
+
 ---
 
 ## __get_domains__
