@@ -8,7 +8,7 @@ These scripts have been designed to be as user friendly as possible and will pro
 
 ---
 
-## __get_domains__
+## __get_domains.py__
 
 Retrieves a list of domains from an account and outputs it to a csv file. You will be prompted for your Mailgun API key.
 
