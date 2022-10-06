@@ -44,7 +44,7 @@ def verify_domain(domain_name,customer_api_key):
         return False
     else:
         # Any other error
-        print("Error communicating with API endpoint when attempting to verify domain. Error Code: {} - {}".format(data.status_code, data.text))
+        print("Error communicating with API endpoint when attempting to verify domain. Error Code: {} - {} \n URL: {}".format(data.status_code, data.text, data.url))
         sys.exit()
 
 # creates the files and directory

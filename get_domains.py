@@ -27,8 +27,8 @@ def get_domains(customer_api_key, f):
                             auth=("api", customer_api_key),
                             params={"skip": skip, "limit": 1000})
         if data.status_code != 200:
-            print("Error communicating with API endpoint. Error Code: {} - {}"
-                  .format(data.status_code, data.text))
+            print("Error communicating with API endpoint. Error Code: {} - {} \n URL: {}"
+                  .format(data.status_code, data.text, data.url))
             sys.exit()
         items = data.json()['items']
         domains_list = [d["name"] for d in items]
