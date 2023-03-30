@@ -28,7 +28,7 @@ def verify_domain(domain_name,customer_api_key):
         print("Error communicating with API endpoint when attempting to verify domain. Error Code: {} - {}".format(data.status_code, data.text))
         sys.exit()
 
-def main():
+def main(headers = {'Content-Type': 'application/json'}):
     customer_api_key = ""
     customer_csv = ""
     file_name = ""
@@ -61,7 +61,7 @@ def main():
     if file_name.split(".")[1] == "json":
         print("Ok!")
         # sets the content type for json file
-        headers = {'Content-Type': 'application/json'}
+        # headers = {'Content-Type': 'application/json'}
         # opens json file
         with open(file_name, 'r') as handle:
             parsed = json.load(handle)
