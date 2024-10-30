@@ -8,6 +8,42 @@ These scripts have been designed to be as user friendly as possible and will pro
 
 ---
 
+## __create_webhooks_simple.py__
+
+Assigns a single endpoint to every webhook for all domains on the account.
+
+### How to use:
+
+```
+python create_webhooks_simple.py
+```
+
+---
+
+## __delete_webhooks_simple.py__
+
+Deletes all webhooks for all domains on the account.
+
+### How to use:
+
+```
+python delete_webhooks_simple.py
+```
+
+---
+
+## __export_events.py__
+
+Exports events to csv. Will prompt for optional parameters.
+
+### How to use:
+
+```
+python export_events.py
+```
+
+---
+
 ## __get_domains.py__
 
 Retrieves a list of domains from an account and outputs it to a csv file. You will be prompted for your Mailgun API key.
@@ -33,3 +69,31 @@ Output is stored in ./files/suppressions
 ```
 python export_suppressions.py
 ```
+
+---
+
+
+## __import_suppressions.py__
+
+Imports supppressions. You provide the file with the list of addresses to be imported.
+
+### How to use:
+
+```
+python import_suppresssions.py
+```
+
+---
+
+
+## __verify_domains.py__
+
+Pulls a list of all unverified domains on your account and then attempts to verify them.
+
+### How to use:
+
+```
+python verify_domains.py
+```
+
+---
